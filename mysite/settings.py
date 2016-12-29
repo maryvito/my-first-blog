@@ -25,7 +25,7 @@ SECRET_KEY = 'rklb(b_#g$#qqpi738%($!uvwp8t5e(jmqdkv&=kv%)4hlbg(g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['maryvito.pythonanywhere.com']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog'
+    'blog',
 )
 
 MIDDLEWARE_CLASSES = (
